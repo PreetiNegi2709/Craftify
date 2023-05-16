@@ -23,7 +23,7 @@
     --color-bg: #E4D4C8; /* pale purple */
     --color-bg1: #F9F1F0; /* light blue */
     /* --color-bg2: #8686e0; mid blue */
-    --color-bg2: #585858; /* mid blue */
+    --color-bg2: #e1e1e1;; /* mid blue */
 
     --container-width-lg: 80%;
     --container-width-md: 90%;
@@ -275,22 +275,36 @@ header{
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
+    
 }
 
 .package:hover{
     background: transparent;
-    border-color: var(--color-primary);
+    /* border-color: var(--color-primary); */
 }
 .package__info:hover{
-    color: white;
+    color: black;
 }
 .package__info{
     padding: 2rem;
+    /* background-color: red; */
+    /* display: flex;
+    justify-content: space-between;
+    flex-direction: column; */
+    /* background-color: red; */
+   
+}
+.packBtn{
+    /* bottom: 0px; */
+    /* align-self: bottom; */
 }
 
 .package__info p{
     margin: 1.2rem 0 2rem;
     font-size: 0.9rem;
+}
+.package__image{
+    overflow: hidden;
 }
 
 /* =======================FAQs============================= */
